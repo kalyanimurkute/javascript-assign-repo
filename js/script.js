@@ -1,6 +1,6 @@
  // Array of food items
     const foods = [
-      { name: "Purn Poli", image: "javascript-assign-repo/images/poli.jpg" },
+      { name: "Purn Poli", image:"javascript-assign-repo/images/poli.jpg" },
       { name: "Thali Pith", image: "javascript-assign-repo/images/thali pith.jpg" },
       { name: "Laddu", image: "javascript-assign-repo/images/ladoo.jpg" },
       { name: "Idli Sambar", image: "javascript-assign-repo/images/idali.jpg" },
