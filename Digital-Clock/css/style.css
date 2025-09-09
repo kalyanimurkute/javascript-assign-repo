@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Digital Clock';
+    src: url('./digital-7.ttf') format('truetype');
+}
+body{
+    background:rgb(233, 169, 233);
+}
+
+.clock {
+    margin: 250px auto 50px; 
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    border: none;
+    border-radius: 16px;
+    border: 3px solid rgb(11, 11, 12);
+    padding: 15px;
+    background: #9f10e7;
+    box-shadow: 0 4px 20px rgba(3, 1, 40, 0.3);
+}
+
+.clock h2 {
+    position: absolute;
+    top: 150px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.clock-screen {
+    background-color: #f489ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: 'Digital Clock', monospace;
+    font-weight: bold;
+    color: #580c84;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(101, 4, 88, 0.5);
+    border: 1px solid #db26d5;
+}
